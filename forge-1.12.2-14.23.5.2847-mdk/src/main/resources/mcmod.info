@@ -1,0 +1,16 @@
+[
+{
+  "modid": "forge_example",
+  "name": "Xaunther's Forge Example",
+  "description": "My first mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Xaunther"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

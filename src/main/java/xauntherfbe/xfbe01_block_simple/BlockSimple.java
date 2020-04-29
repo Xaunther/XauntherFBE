@@ -1,6 +1,7 @@
 package xauntherfbe.xfbe01_block_simple;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.BlockRenderLayer;
@@ -25,7 +26,7 @@ public class BlockSimple extends Block
 {
 	public BlockSimple()
 	{
-		super(MATERIAL.ROCK);
+		super(Material.ROCK);
 		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS); //Blocks tab in creative
 	}
 	

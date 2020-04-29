@@ -19,6 +19,7 @@ public class ClientOnlyProxy extends CommonProxy
 	public void preInit()
 	{
 		super.preInit();
+		xauntherfbe.xfbe01_block_simple.StartupClientOnly.preInitClientOnly();
 	}
 	
 	/**
@@ -28,6 +29,7 @@ public class ClientOnlyProxy extends CommonProxy
 	public void init()
 	{
 		super.init();
+		xauntherfbe.xfbe01_block_simple.StartupClientOnly.initClientOnly();
 	}
 	
 	/**
@@ -36,6 +38,7 @@ public class ClientOnlyProxy extends CommonProxy
 	public void postInit()
 	{
 		super.postInit();
+		xauntherfbe.xfbe01_block_simple.StartupClientOnly.postInitClientOnly();
 	}
 	
 	@Override

@@ -36,7 +36,7 @@ public class StartupCommon
 	    //  |  stationary_water  +       water          |                                                
 	    //  +--------------------+----------------------+                                                
 	    //
-		blockSimple = (BlockSimple)(new BlockSimple());
+		blockSimple =new BlockSimple();
 		blockSimple.setUnlocalizedName("xfbe01_block_simple");
 		blockSimple.setRegistryName("xfbe01_block_simple");
 		ForgeRegistries.BLOCKS.register(blockSimple);

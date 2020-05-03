@@ -1,4 +1,4 @@
-package xauntherfbe.xfbe_02_block_partial;
+package xauntherfbe.xfbe02_block_partial;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;

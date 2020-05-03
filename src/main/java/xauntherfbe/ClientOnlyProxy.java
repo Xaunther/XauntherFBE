@@ -20,6 +20,7 @@ public class ClientOnlyProxy extends CommonProxy
 	{
 		super.preInit();
 		xauntherfbe.xfbe01_block_simple.StartupClientOnly.preInitClientOnly();
+		xauntherfbe.xfbe02_block_partial.StartupClientOnly.preInitClientOnly();
 	}
 	
 	/**
@@ -30,6 +31,7 @@ public class ClientOnlyProxy extends CommonProxy
 	{
 		super.init();
 		xauntherfbe.xfbe01_block_simple.StartupClientOnly.initClientOnly();
+		xauntherfbe.xfbe02_block_partial.StartupClientOnly.initClientOnly();
 	}
 	
 	/**
@@ -39,6 +41,7 @@ public class ClientOnlyProxy extends CommonProxy
 	{
 		super.postInit();
 		xauntherfbe.xfbe01_block_simple.StartupClientOnly.postInitClientOnly();
+		xauntherfbe.xfbe02_block_partial.StartupClientOnly.postInitClientOnly();
 	}
 	
 	@Override

@@ -16,6 +16,7 @@ public abstract class CommonProxy
 	public void preInit()
 	{
 		xauntherfbe.xfbe01_block_simple.StartupCommon.preInitCommon();
+		xauntherfbe.xfbe02_block_partial.StartupCommon.preInitCommon();
 	}
 	
 	/**
@@ -25,6 +26,7 @@ public abstract class CommonProxy
 	public void init()
 	{
 		xauntherfbe.xfbe01_block_simple.StartupCommon.initCommon();
+		xauntherfbe.xfbe02_block_partial.StartupCommon.initCommon();
 	}
 	
 	/**
@@ -33,6 +35,7 @@ public abstract class CommonProxy
 	public void postInit()
 	{
 		xauntherfbe.xfbe01_block_simple.StartupCommon.postInitCommon();
+		xauntherfbe.xfbe02_block_partial.StartupCommon.postInitCommon();
 	}
 
 	// helper to determine whether the given player is in creative mode
